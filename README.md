@@ -27,17 +27,10 @@ beam_output = model.generate(
 gen_txt = tokenizer.decode(beam_output[0])
 print(ItransTransliterator.from_itrans(gen_txt,lang))
 ```
-
-    Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
-
-
     राजः कृतं कर्म कर्तारमनुगच्छति , 
     इति श्रीगारुडे महापुराणे उत्तरखण्डे द्वितीयांशे धर्मकाण्डे प्रेतकल्पे श्रीकृष्णगरुडसंवादे धर्मदृप्रेतकल्पे
     श्रीकृष्णगरुडमहापुराणम्-
     गरुड उवाच तार्क्ष्य शृणु तार्क्ष्य
-
-
-
 ```
 text = "arjuna" # a prominent character in Mahabharata
 beam_output = model.generate(
@@ -51,18 +44,11 @@ beam_output = model.generate(
 gen_txt = tokenizer.decode(beam_output[0])
 print(ItransTransliterator.from_itrans(gen_txt,lang))
 ```
-
-    Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
-
-
     अर्जुन उवाच
     श्रृणुध्वं मुनिशार्दूलाः प्रवक्ष्यामि यथातथम् 
     प्रवक्ष्यामि समासेन गदतो मे निबोधत   
     इति श्रीमहापुराणे वायुप्रोक्ते भुवनविन्यासो नाम त्रिंशोऽध्यायःसह-
     ।सूत उवाच  संक्षेपात् प्रवक्ष्यामि वंश।
-
-
-
 ```
 text = "krishna" # Lord Krishna
 beam_output = model.generate(
@@ -76,17 +62,10 @@ beam_output = model.generate(
 gen_txt = tokenizer.decode(beam_output[0])
 print(ItransTransliterator.from_itrans(gen_txt,lang))
 ```
-
-    Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
-
-
     क्रिश्नः कथं नु संसृजेत् , 
     इति श्रीगारुडे महापुराणे उत्तरखण्डे द्वितीयांशे धर्मकाण्डे प्रेतकल्पे श्रीकृष्णगरुडसंवादे प्रेतकृतदृप्रेतकल्पे
     श्रीकृष्णगरुडमहापुराणम्-
     गरुड उवाच 
-
-
-
 ```
 text = "ganga" #the ganges
 beam_output = model.generate(
@@ -100,15 +79,8 @@ beam_output = model.generate(
 gen_txt = tokenizer.decode(beam_output[0])
 print(ItransTransliterator.from_itrans(gen_txt,lang))
 ```
-
-    Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
-
-
     गन्गः कृष्णबाहुना  -- 
     कृष्णोऽपि तं नृपोऽभ्येत्य गोपालैरतिदारुणम्  अक्रूरोऽयमत्यर्थश्व तस्य पुत्रोऽभवत्  ततश्व सत्राजि-बलभद्रोऽभूत् 
-
-
-
 ```
 text = "agni:h" #fire
 beam_output = model.generate(
@@ -122,16 +94,7 @@ beam_output = model.generate(
 gen_txt = tokenizer.decode(beam_output[0])
 print(ItransTransliterator.from_itrans(gen_txt,lang))
 ```
-
-    Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
-
-
     अग्नि:ह् पृथिव्यां दिशः सर्वांश्च विविधान् बहून् 
     ऋत्विजोऽपि च ऋषयो दृष्ट्वा तानृषींस्तथा  
     संहृत्य तांश्चापि राजाऽ।
-
-
-
-```
-
 ```
