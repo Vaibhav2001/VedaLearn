@@ -2,7 +2,6 @@
 Language Model on Sanskrit. <br/>
 Used Byte Pair Encoding and GPT2 model. Transliterated original sanskrit from CLTK and sanskritdocuments.org into Englishfor easier training. <br/>
 The results shown are in pure sanskrit after reverse transliteration.
-Visit the website --> 
 
 
 ```
