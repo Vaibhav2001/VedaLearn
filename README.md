@@ -1,3 +1,3 @@
 # VedaLearn
-Language Model on Sanskrit
+Language Model on Sanskrit. <br/>
 Visit the website --> 
